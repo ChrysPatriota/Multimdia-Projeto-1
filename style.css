@@ -1,0 +1,117 @@
+body{
+    background-color: brown;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    display: flex;
+}
+.root{
+    position: relative;
+    background-color: black;
+    width: 15vw;
+    height: 100vh;
+    margin:inherit ;
+    padding: inherit;
+    border: inherit;
+}
+.logo{
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    bottom: 0;
+}
+.site-box{
+    background-color: black;
+    height: 5%;
+    text-align: center;
+    border-radius: 30rem;
+    margin-bottom: 10%;
+}
+
+.site-name{
+    color: cyan;
+    font-family: "Queen";
+}
+
+.music-information{
+    background-color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 5%;
+    width: inherit;
+    display: flex;
+    cursor: pointer;
+}
+
+.music-album-icon{
+    width: 40px;
+    height: 40px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.music-information p{
+    margin: 3px;
+    padding: 2;
+    font-family: "Queen";
+    color: cyan;
+}
+
+.playing{
+    background-color: rgb(150, 206, 228);
+    float: right;
+    height: 100vh;
+    width: 90vw;
+    text-align: center;
+}
+
+.music-album{
+    margin-top: 15rem;
+    align-content: center;
+    width: 300px;
+    height: 300px;
+}
+
+.music-name{
+    text-align: center;
+    font-family: "Queen";
+}
+
+.config{
+    position: absolute;
+    margin: 0;
+    margin-left: 38rem;
+    background-color: tomato;
+    height: 5rem;
+    width: 5rem;
+    bottom: 0;
+    display: flex;
+}
+
+.repeat{
+    margin-right: 0rem;
+    padding: 0;
+    border: 0;
+    height: inherit;
+    width: 50%;
+    background-color: blue;
+    cursor: pointer;
+}
+
+.speed{
+    margin-left: 0rem;
+    padding: 0;
+    border: 0;
+    height: inherit;
+    width: inherit;
+    background-color: green;
+    cursor: pointer;
+}
+
+@font-face {
+    font-family: 'Queen';
+    src: url('../fonts/QueenInlineGrunge.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="logic.js"></script>
+    <title>OnlyQueen's</title>
+</head>
+<body onload="set_songs()">
+    <div class="root">
+        <div class="site-box">
+            <h1 class="site-name">OnlyQueen's</h1>
+
+        </div>
+        <div class="music-information" onclick="set_playing(0)">
+            <img class="music-album-icon" id="song-album-icon0" src="https://i3.wp.com/queennet.com.br/wp-content/uploads/2010/11/Queen/2q1.jpg">
+            <div class="music-informations">
+                <p class="music-name-select" id="song-name0"></p>
+                <p class="music-album-name" id="song-album0">Album</p>
+            </div>
+        </div>
+        <div class="music-information" onclick="set_playing(1)">
+            <img class="music-album-icon" id="song-album-icon1" src="https://i3.wp.com/queennet.com.br/wp-content/uploads/2010/11/Queen/2q1.jpg">
+            <div class="music-informations">
+                <p class="music-name-select" id="song-name1"></p>
+                <p class="music-album-name" id="song-album1">Album</p>
+            </div>
+        </div>
+        <div class="music-information" onclick="set_playing(2)">
+            <img class="music-album-icon" id="song-album-icon2" src="https://i3.wp.com/queennet.com.br/wp-content/uploads/2010/11/Queen/2q1.jpg">
+            <div class="music-informations">
+                <p class="music-name-select" id="song-name2"></p>
+                <p class="music-album-name" id="song-album2">Album</p>
+            </div>
+        </div>
+        <div class="music-information" onclick="set_playing(3)">
+            <img class="music-album-icon" id="song-album-icon3" src="https://i3.wp.com/queennet.com.br/wp-content/uploads/2010/11/Queen/2q1.jpg">
+            <div class="music-informations">
+                <p class="music-name-select" id="song-name3"></p>
+                <p class="music-album-name" id="song-album3">Album</p>
+            </div>
+        </div>
+        <img class="logo" src="https://i3.wp.com/queennet.com.br/wp-content/uploads/2010/11/Queen/2q1.jpg">
+
+    </div>
+    <div class="playing" id="playing">
+        <img class="music-album" src="https://4429028l.ha.azioncdn.net/img/2020/07/produto/3228/1/large/queen-01.jpg" id="playing-album">
+        <h1 class="music-name" id="playing-song">-------------------</h1>
+        <audio controls id="myaudio">
+            <source src="" type="audio/mpeg" id="playing-audio-song">
+        </audio>
+        <div class="config">
+            <!--<img class="repeat" id="repeat" src="0" onclick="change_repeat()">-->
+            <img class="speed" id="speed" src="./img/seta1.jpg" onclick="change_speed()">
+        </div>
+    </div>
+</body>
+</html>
